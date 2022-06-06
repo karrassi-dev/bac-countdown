@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    text-align: center;
+    align-items: center;
+}
+
+body{
+    font-family: "lato" , sans-serif;
+}
+body {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 3rem;
+    color: wheat;
+}
+h3{
+    color: yellow;
+}
+h2 span{
+    color: yellow;
+}
+
+.bac{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+    color: wheat;
+}
+
+
+.bac-2022{
+    max-width:40%;
+    height:auto;
+    border-radius: 25px;
+    margin-bottom: 12rem;
+}
+/*
+footer{
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: bold;
+
+}
+.copyright p {
+    font-size: 0.9rem;
+    color: wheat;
+}
+
+p{
+    font-size: 3rem;
+}
+.pray{
+    font-size: xx-large;
+    font-weight: bold;
+}
+*/
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+
+}
+/* ---------------------------------------------- media queries------------------------------*/
+/* @media screen and (max-width : 575px){
+
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    h2{
+        white-space: nowrap;
+        font-size: 50px;
+    }
+    h2 .line{
+        display: block;
+    }
+
+    .countdown{
+        display: flex;
+        align-items: center;
+        margin: 15px;
+    }
+    .bac-2022{
+        max-width:120%;
+        height:auto;
+        margin-bottom: 12rem;
+    }
+
+} */
+
+@media screen and (max-width : 575px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+    .bac-2022{
+        max-width:100%;
+        height:auto;
+        border-radius: 25px;
+        margin-bottom: 12rem;
+    }
+    .bac{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: wheat;
+        text-align: center;
+        align-items: center;
+    }
+
+}
