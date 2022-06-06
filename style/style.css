@@ -147,5 +147,10 @@ p{
         text-align: center;
         align-items: center;
     }
+    .countdown{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
 
 }
